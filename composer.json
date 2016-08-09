@@ -1,0 +1,16 @@
+{
+    "require": {
+	  "slim/slim": "~3.5",
+	  "league/fractal": "~0.13",
+	  "monolog/monolog": "~1.21",
+	  "nesbot/carbon": "~1.21",
+      "slim/pdo": "1.9.9",
+      "robmorgan/phinx": "*"
+    },
+    "require-dev": {
+	  "phpunit/phpunit": "~5.0"
+    },
+    "scripts": {
+      "phinx": "php ./vendor/bin/phinx"
+    }
+}
